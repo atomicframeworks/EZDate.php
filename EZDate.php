@@ -1,8 +1,8 @@
 <?php
 	/*
-							Copyright (C) - Kevin McGinty		
-		   ##     #####
-		 # _ #	 ###
+							
+		   ##     #####		Copyright (c) - Kevin McGinty
+		 # _ #	 ###		
 		#   #	#     		AtomicFrameworks
 		
 	*/
