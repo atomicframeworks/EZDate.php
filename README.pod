@@ -1,0 +1,40 @@
+
+=begin html
+
+<h2> EZDate - PHP DateTime class extension to create MySQL friendly DATETIME formatted dates</h2>
+<br />
+<br />
+EZDate is an extension of the PHP Date Class to automagically create MySQL DATETIME friendly dates.  EZDate overrides toString so it is also simple to echo the date. EZdate allows creation of new DateTime objects using a timestamp in addition to standard string formats such as "-1 week" etc.
+<br />
+<br />
+<b>Create todays date</b>:
+<br />
+<blockquote>
+	$newDate = new EZDate();
+</blockquote>
+<br />
+<br />	
+<b>Example: Modify date object to two weeks previous</b>:
+<br />
+<blockquote>
+	$newDate->modify('-2 weeks');
+</blockquote>
+<br />
+<br />
+<b>Example: Create tomorrows date</b>: 
+<br />
+<blockquote>
+	$tomorrow = new EZDate('1 day');
+	$tomorrow = new EZDate('+24 hours');
+</blockquote>
+<br />
+<br />
+<b>Example: Create a date using a timestamp</b>:
+<br />
+<blockquote>
+	$ts = time();
+	$newDate = new EZDate($ts);
+</blockquote>
+
+=end html
+
