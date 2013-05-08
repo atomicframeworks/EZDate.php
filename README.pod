@@ -25,6 +25,7 @@ EZDate is an extension of the PHP Date Class to automagically create MySQL DATET
 <br />
 <blockquote>
 	$tomorrow = new EZDate('1 day');
+	<br />
 	$tomorrow = new EZDate('+24 hours');
 </blockquote>
 <br />
