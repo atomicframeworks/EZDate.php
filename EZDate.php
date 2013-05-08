@@ -17,12 +17,12 @@
 			{
 				$time = date(self::$format,$time);
 			}
-			// If no timezone set to default
+			// If no time zone set to default
 	        if($timeZone === null)
 	        {
 	            $timeZone = new DateTimeZone(date_default_timezone_get());
 	        }
-	        // construct DateTime with current props
+	        // Construct DateTime with current time & time zone
 	        parent::__construct($time, $timeZone);
 	    }
 	 	
