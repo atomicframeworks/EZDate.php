@@ -1,9 +1,9 @@
 <?php
     /*
                             
-           ##     #####     Copyright (c) - Kevin McGinty
-         # _ #   ###        
-        #   #   #           AtomicFrameworks
+           ##    ####     Copyright (c) - Kevin McGinty
+         # _ #  ###        
+        #   #  #           AtomicFrameworks
         
     */
     class EZDate extends DateTime {
