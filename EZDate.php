@@ -18,7 +18,7 @@
                 $time = date(self::$format,$time);
             }
             // If no time zone set to default
-        if($timeZone === null)
+            if($timeZone === null)
             {
                 $timeZone = new DateTimeZone(date_default_timezone_get());
             }
