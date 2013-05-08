@@ -34,6 +34,7 @@ EZDate is an extension of the PHP Date Class to automagically create MySQL DATET
 <br />
 <blockquote>
 	$ts = time();
+	<br />
 	$newDate = new EZDate($ts);
 </blockquote>
 <br />
